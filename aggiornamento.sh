@@ -1,32 +1,32 @@
 #!/bin/bash
 
 sleep 2
-echo "#####################"
+echo "##########################"
 echo "# Verifica aggiornamenti #"
-echo "#####################"
+echo "##########################"
 sudo apt-get update
 echo ""
 echo ""
 sleep 2
 
-echo "#########################"
+echo "###############################"
 echo "# Installazione aggiornamenti #"
-echo "#########################"
+echo "###############################"
 sudo apt-get upgrade -y
 echo ""
 echo ""
 sleep 2
 
-echo "######################"
+echo "#########################"
 echo "# Aggiornamento sistema #"
-echo "######################"
+echo "#########################"
 sudo apt-get dist-upgrade -y
 
 sleep 2
 
-echo "#######################"
+echo "##############################"
 echo "# Pulizia file non necessari #"
-echo "#######################"
+echo "##############################"
 sudo apt-get autoremove -y
 echo ""
 echo ""
