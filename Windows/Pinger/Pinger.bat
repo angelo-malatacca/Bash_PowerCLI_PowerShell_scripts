@@ -1,6 +1,8 @@
-#Questo semplice batch prova a pingare gli elementi
-#contenuti nel file elenco.txt e ne redirige l'esito
-#in un file di log chiamato logfile.txt
+@Echo OFF
+
+REM Questo semplice batch prova a pingare gli elementi
+REM contenuti nel file elenco.txt e ne redirige l'esito
+REM in un file di log chiamato logfile.txt
 
 @Echo OFF
 
